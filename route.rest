@@ -1,0 +1,34 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/63d3a00d2199ef85d755c80b
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "Username":"tddddet",
+    "Name": "usedwwwwddddddddd",
+    "Email":"ydddes@gmail.com",
+    "Password":"amaddddzing123"
+}
+
+
+###
+
+DELETE http://localhost:3000/users/63d8ced675fbe6dec4a2b511
+
+###
+
+PATCH http://localhost:3000/users/63d39d3cbf5d2fdb0494174a
+Content-type:application/json
+
+{
+    "Username": "updated",
+}
+
+
+
